@@ -1,7 +1,7 @@
 name: Update WakaTime Stats
 
 on:
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Manual trigger
   schedule:
     - cron: "0 0 * * *" # Runs daily at midnight UTC
 
@@ -12,4 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: athul/waka-readme@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.Named }}
+          WAKATIME_API_KEY: ${{ secrets.Named }}  # Ensure this secret matches your WakaTime API key
+          INCLUDE_PROFILE_VIEWS: true  # Optional: Include profile views
+          INCLUDE_CODE_TIME: true  # Optional: Include code time
+          INCLUDE_LANGUAGES: true  # Optional: Include programming languages
+          INCLUDE_PROJECTS: true  # Optional: Include projects
+          INCLUDE_COMMITS: true  # Optional: Include commit activity stats
