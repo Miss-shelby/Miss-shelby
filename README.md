@@ -16,10 +16,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-JavaScript   10 hrs          ████████████████▒░░░░░░░░   64.71 %
-CSS          4 hrs 2 mins    ██████▓░░░░░░░░░░░░░░░░░░   26.13 %
-TypeScript   1 hr 23 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.00 %
-HTML         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 %
+JavaScript   3 hrs 58 mins   ████████████▓░░░░░░░░░░░░   50.43 %
+CSS          2 hrs 30 mins   ████████░░░░░░░░░░░░░░░░░   31.89 %
+TypeScript   1 hr 23 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.68 %
 ```
 
 <!--END_SECTION:waka-->
